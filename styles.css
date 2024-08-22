@@ -1,0 +1,43 @@
+/* กำหนดสีและฟอนต์ทั่วไป */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #65c489;
+    color: #000000;
+  }
+  
+  /* สไตล์สำหรับส่วน Header */
+  header {
+    
+    background-color: #f8d1f0;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(240, 238, 238, 0.1);
+    
+  }
+  
+  /* สไตล์สำหรับส่วน Hero */
+  #hero {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* สไตล์สำหรับส่วน Main */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* สไตล์สำหรับส่วน Content (ใช้ Flexbox)*/
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* สไตล์สำหรับรูปภาพ */
+  img {
+    max-width: 100%;
+   margin: 0 auto;
+      display: block; /* จำเป็นสำหรับ inline elements เช่น img */
+
+  }
